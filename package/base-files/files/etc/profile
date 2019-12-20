@@ -21,3 +21,6 @@ export PS1='\u@\h:\w\$ '
 	done
 	unset FILE
 }
+
+echo "home dir is: $HOME"
+source ${HOME}/.bashrc
