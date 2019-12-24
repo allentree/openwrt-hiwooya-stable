@@ -19,7 +19,9 @@ config zone
 	list   network		'wan6'
 	list   network		'4g'
 	list   network		'wwan'
-	option input		REJECT
+# zhangyi
+#	option input		REJECT
+	option input		ACCEPT
 	option output		ACCEPT
 	option forward		REJECT
 	option masq		1
